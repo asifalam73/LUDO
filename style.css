@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .outer {
     height: 750px;
     width: 750px;
@@ -160,18 +167,25 @@
 .star {
     font-size: 30px;
 }
-.star-2{
+
+.star-2 {
     font-size: 35px;
     color: #ffffff;
 }
-.created-by{
+
+.created-by {
     text-decoration: none;
     color: #000;
-    margin-left: 39.5%;
     font-weight: bold;
     font-size: 20px;
     font-family: cursive;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
-.fa-heart{
+
+.fa-heart {
     color: red;
 }
